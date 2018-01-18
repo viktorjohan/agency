@@ -1,1 +1,1 @@
-![alt text] (http://www.animatedimages.org/data/media/678/animated-pigeon-image-0043.gif)
+![alt text](http://www.animatedimages.org/data/media/678/animated-pigeon-image-0043.gif)
