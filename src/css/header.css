@@ -1,0 +1,46 @@
+.App {
+  /* text-align: center; */
+  border-right: none;
+  border-left: none;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.header {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-video {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 180px;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Righteous';
+  font-size: 14rem;
+  /* color: #5C9DD4; */
+  color: #f4f4f4;
+}
+
+.nedryckare {
+  margin-top: -10px;
+  font-family: 'Raleway';
+  font-size: 2.9rem;
+  color: white;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
 import App from './App';
 import Footer from './components/Footer';
 import ProjectItem from './components/ProjectItem';
+import ScrollToTop from './components/ScrollToTop';
 import registerServiceWorker from './registerServiceWorker';
 import {
   BrowserRouter as Router,
@@ -12,10 +13,10 @@ import {
 
 ReactDOM.render(
   <Router>
-    <div>
+    <ScrollToTop>
       <Route exact path="/" component={App}/>
       <Route path="/footer" component={Footer}/>
       <Route path="/projectitem/:id" component={ProjectItem}/>
-    </div>
+    </ScrollToTop>
   </Router>, document.getElementById('root'));
 registerServiceWorker();

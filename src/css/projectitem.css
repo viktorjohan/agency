@@ -1,0 +1,44 @@
+.projectcaseitem {
+}
+
+.projectcaseitem__header {
+  width: auto;
+  height: 300px;
+}
+
+.projectcaseitem__header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projectcaseitem__wrapper {
+}
+
+.projectcaseitem__wrapper h3 {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 40px;
+}
+
+.projectcaseitem__wrapper p {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 21px;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.projectcaseitem__wrapper--extraimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.projectcaseitem__wrapper--extraimg img {
+  margin-left: auto;
+  margin-right: auto;
+}
