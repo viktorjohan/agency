@@ -3,6 +3,7 @@ import './css/App.css';
 import pigeon from './Pigeon.mp4';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Clients from './components/Clients';
 import Projects from './components/Projects';
 
 
@@ -19,6 +20,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Projects />
+        <Clients />
         <Footer />
       </div>
     );

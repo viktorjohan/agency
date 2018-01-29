@@ -3,6 +3,7 @@
 @import './projects.css';
 @import './projectitem.css';
 @import './footer.css';
+@import './clients.css';
 
 body {
   margin: 0;
