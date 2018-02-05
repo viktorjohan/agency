@@ -76,7 +76,7 @@ class Projects extends Component {
             <a href="#">Contact</a>
           </div>
         </div> */}
-        <span style={{fontSize: '30px', cursor: 'pointer', color: 'white'}} onClick={this.openNav}>&#9776;</span>
+        {/* <span style={{fontSize: '30px', cursor: 'pointer', color: 'white'}} onClick={this.openNav}>&#9776;</span> */}
         <p>Selected work</p>
         <div style={{marginBottom: "40px", marginTop: '30px'}}>
           {this.state.isLoading &&
