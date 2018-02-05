@@ -4,6 +4,7 @@
 @import './projectitem.css';
 @import './footer.css';
 @import './clients.css';
+@import './guestbook.css';
 
 body {
   margin: 0;

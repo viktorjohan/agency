@@ -9,7 +9,18 @@ import registerServiceWorker from './registerServiceWorker';
 import {
   BrowserRouter as Router,
   Route
-} from 'react-router-dom'
+} from 'react-router-dom';
+import * as firebase from 'firebase';
+
+var config = {
+    apiKey: "AIzaSyBzRARdKhk_HQ5FbHwpa6-aHNFDkZyggHQ",
+    authDomain: "agency-guestbook.firebaseapp.com",
+    databaseURL: "https://agency-guestbook.firebaseio.com",
+    projectId: "agency-guestbook",
+    storageBucket: "",
+    messagingSenderId: "826219732262"
+  };
+  firebase.initializeApp(config);
 
 ReactDOM.render(
   <Router>

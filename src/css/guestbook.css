@@ -1,0 +1,82 @@
+.guestbook__wrapper {
+  background-color: #e8e8e8;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.guestbook__wrapper h3 {
+  padding-top: 50px;
+  padding-bottom: 28px;
+  font-size: 34px;
+  font-family: 'Raleway';
+  margin-top: 0;
+}
+
+.formWrapper {
+  max-width: 300px;
+  margin: auto;
+  padding-bottom: 24px;
+}
+
+.message__wrapper--content {
+  font-family: 'Raleway';
+  font-size: 20px;
+  padding: 14px;
+}
+
+.message__wrapper--name {
+  font-family: 'Avenir';
+  font-size: 17px;
+  color: grey;
+  font-style: italic;
+}
+
+.message__wrapper {
+  background-color: #dcdfe5;
+  width: 430px;
+  border-radius: 8px;
+  margin: 14px;
+}
+
+.formWrapper__messages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.noteButton {
+  background-color: #5e9aed;
+}
+
+.noteButton:hover {
+  background-color: #5e9aed;
+}
+
+.deleteButton {
+  background-color: #f28885;
+  margin-bottom: 18px;
+}
+
+.deleteButton:hover {
+  background-color: #f28885;
+}
+
+.deleteButton:focus {
+  background-color: #f28885;
+}
+
+.deleteButton:active {
+  background-color: #f28885;
+}
+
+.nameInput:focus {
+  border-bottom: 1px solid #5e9aed !important;
+  box-shadow: 0 1px 0 0 #5e9aed !important;
+}
+
+.messageInput:focus {
+  border-bottom: 1px solid #5e9aed !important;
+  box-shadow: 0 1px 0 0 #5e9aed !important;
+}
