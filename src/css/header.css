@@ -24,18 +24,30 @@
 .overlay {
   position: absolute;
   left: 0;
-  top: 180px;
+  top: 25%;
   text-align: center;
   z-index: 1;
   width: 100%;
 }
 
+@media screen and (max-width: 700px) {
+  .overlay {
+    top: 80px;
+  }
+}
+
 h1 {
   margin: 0;
   font-family: 'Righteous';
-  font-size: 14rem;
+  font-size: 13rem;
   /* color: #5C9DD4; */
   color: #f4f4f4;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 70px;
+  }
 }
 
 .nedryckare {
@@ -43,4 +55,11 @@ h1 {
   font-family: 'Raleway';
   font-size: 2.9rem;
   color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .nedryckare {
+    margin-top: 2px;
+    font-size: 18px;
+  }
 }

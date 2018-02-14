@@ -31,6 +31,14 @@
   line-height: 1.5;
 }
 
+@media screen and (max-width: 500px) {
+  .projectcaseitem__wrapper p {
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 18px;
+  }
+}
+
 .projectcaseitem__wrapper--extraimg {
   display: flex;
   justify-content: center;

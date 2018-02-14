@@ -25,6 +25,12 @@
   height: 350px;
 }
 
+@media screen and (max-width: 600px) {
+  .case-box {
+    width: 340px;
+  }
+}
+
 .case-box:hover {
 }
 
@@ -40,6 +46,19 @@
   align-items: center;
   flex-direction: column;
   transition: 0.41s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .overlay-hover {
+    width: 340px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .overlay-hover img {
+    width: 340px;
+  }
 }
 
 .overlay-hover p {
@@ -58,13 +77,19 @@
   opacity: 0.9;
 }
 
+@media screen and (max-width: 600px) {
+  .overlay-hover:hover {
+    width: 340px;
+  }
+}
+
 .case-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.overlaynav {
+/* .overlaynav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -75,7 +100,7 @@
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.4s;
-}
+} */
 
 .overlay-content {
     position: relative;
