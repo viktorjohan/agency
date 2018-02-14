@@ -77,8 +77,8 @@ class Projects extends Component {
           </div>
         </div> */}
         {/* <span style={{fontSize: '30px', cursor: 'pointer', color: 'white'}} onClick={this.openNav}>&#9776;</span> */}
-        <p>Selected work</p>
-        <div style={{marginBottom: "40px", marginTop: '30px'}}>
+        <p style={{marginBottom: "2px"}}>Selected work</p>
+        <div style={{marginBottom: "4px", marginTop: '3px'}}>
           {this.state.isLoading &&
             <BeatLoader
               color={'#20242b'}

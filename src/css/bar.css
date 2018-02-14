@@ -1,0 +1,13 @@
+.bar__wrapper {
+	height: 100vh;
+	width: 100%;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.bar__wrapper h4 {
+  font-family: "Raleway";
+  text-align: center;
+}

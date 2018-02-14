@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Clients from './components/Clients';
 import Guestbook from './components/Guestbook';
 import Projects from './components/Projects';
+import Bar from './components/Bar';
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
         <Header />
         <Projects />
         <Clients />
+        <Bar />
         <Guestbook />
         <Footer />
       </div>

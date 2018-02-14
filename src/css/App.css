@@ -5,6 +5,7 @@
 @import './footer.css';
 @import './clients.css';
 @import './guestbook.css';
+@import './bar.css';
 
 body {
   margin: 0;

@@ -6,7 +6,9 @@
     "react-scripts": "1.0.17"
   },
   "dependencies": {
+    "@nivo/bar": "^0.33.0",
     "firebase": "^4.9.0",
+    "lodash-es": "^4.17.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-materialize": "^1.1.2",
