@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 import yoyo from '../yoyo.mp4';
-import yoyopng from '../yoyo2.png';
 
 class Header extends Component {
   render(){

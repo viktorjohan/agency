@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import pigeon from '../Pigeon.mp4';
 import Footer from './Footer'
 
 class ProjectItem extends Component {

@@ -8,8 +8,8 @@ class Guestbook extends Component {
     super(props);
     this.state = {
       messages: [{
-        name: 'empty name',
-        message: 'empty message'
+        name: '',
+        message: ''
       }],
       newNoteName: '',
       newNoteMessage: ''
@@ -48,9 +48,9 @@ class Guestbook extends Component {
   		db.ref('messages/').on('value', snapshot => {
   			let data = snapshot.val();
   			let list = [];
-  			for( let movie in data ) {
-          data[movie].id = movie;
-  				list.unshift(data[movie]);
+  			for( let item in data ) {
+          data[item].id = item;
+  				list.unshift(data[item]);
   			}
   			this.setState({ messages: list });
   		})

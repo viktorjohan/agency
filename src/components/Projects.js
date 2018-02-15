@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import pigeon from '../Pigeon.mp4';
 import { Spinner } from 'react-spinkit';
 import { BeatLoader } from 'react-spinners';
 import {

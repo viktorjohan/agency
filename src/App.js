@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './css/App.css';
-import pigeon from './Pigeon.mp4';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Clients from './components/Clients';
