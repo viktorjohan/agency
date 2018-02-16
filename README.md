@@ -1,10 +1,12 @@
+# YO-YO
+
 <p align="center">
-<img src="https://media.serious.io/f57ada5f19355f62/serious.gif" />
+<img src="src/screenshot.png" />
 </p>
 
 ### Description
 
-Fictional web agency with React on the frontend and Wordpress on the backend.
+A fictional web agency with React on the frontend and Wordpress on the backend.
 
 ### Technologies
 
